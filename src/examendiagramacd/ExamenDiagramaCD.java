@@ -20,6 +20,9 @@ public class ExamenDiagramaCD {
     public static void main(String[] args) {
        
         int opcion = 0;
+        /**
+         * creo objetos de cada clase para llamrlos desde la main
+         */
         SetHora seth=new SetHora();
         SetAlarma alarm=new SetAlarma();
         AlarmaONoff ala= new AlarmaONoff();
